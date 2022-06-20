@@ -34,7 +34,7 @@ img {
     width: 100%;
     height: 100%;
     background-color: #A7E9AF;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid  #99CEA8;
     box-shadow: 1px -1px lightgray;
     display: flex;
@@ -44,6 +44,10 @@ img {
     backface-visibility: hidden;
     transition: all .5s;   
   }
+  .papagaio:hover{
+    background-color: lightblue;
+    cursor: pointer;
+  } 
 
   .back-face {
     transform: rotateY(180deg);
